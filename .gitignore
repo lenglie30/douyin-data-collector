@@ -1,0 +1,32 @@
+# 忽略规则
+
+# 客户端安装包（通过群文件分发，不提交到仓库）
+*.exe
+*.rar
+*.zip
+*.7z
+*.msi
+
+# 日志与临时文件
+*.log
+logs/
+temp/
+tmp/
+*.tmp
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+desktop.ini
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 本地截图与素材草稿
+docs/draft/
+_screenshots/
